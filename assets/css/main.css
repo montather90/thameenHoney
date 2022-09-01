@@ -2650,6 +2650,7 @@ input, select, textarea {
 			margin: 4rem 0;
 			width: 100%;
 		}
+		
 
 			.image.main:first-child {
 				margin-top: 0;
@@ -3828,6 +3829,49 @@ input, select, textarea {
 				font-size: 30px;
 				font-family: 'Times New Roman', Times, serif;
  			}
+			 #conta{
+				width: 100%;
+				display: flex;
+				justify-content:end;
+				margin-top: 5px;
+				
+			}
+			#conta img{
+				margin:10px;
+				width: 30px;
+				
+			}
+			#conta img:hover{
+				background: rgb(220, 211, 207);
+				transition: all 0.3s ease;
+				border-bottom-color: transparent;
+				color: #18bfef !important;
+				opacity: 0.3;
+				border-style: calc(2);
+			
+			}
+			#conta2{
+				width: 100%;
+				display: flex;
+				justify-content:first baseline;
+				margin-top: 5px;
+				
+			}
+			#conta2 img{
+				margin:10px;
+				width: 30px;
+				
+			}
+			#conta2 img:hover{
+				background: rgb(243, 200, 180);
+				transition: all 0.3s ease;
+				border-bottom-color: transparent;
+				color: #18bfef !important;
+				opacity: 0.3;
+				border-style: calc(2);
+			
+			}
+			
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 2rem;
@@ -4437,7 +4481,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
+		font-size: 3rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
